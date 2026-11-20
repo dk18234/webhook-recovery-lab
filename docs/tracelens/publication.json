@@ -1,0 +1,9 @@
+{
+  "applicationRepository": "https://github.com/dk18234/tracelens-ai",
+  "sourceCommit": "5f59db73db137b889d83cd55d0af90cd1166e3be",
+  "recordingCommit": "258249a4f6326a6d7247c1182db43710d6fd1280",
+  "model": "qwen2.5:7b",
+  "workflowRun": "https://github.com/dk18234/tracelens-ai/actions/runs/44828862397",
+  "runtime": "recorded-real-model",
+  "publishedAt": "2026-11-20T22:41:35.715Z"
+}
