@@ -1,0 +1,12 @@
+{
+  "eventId": "evt_http_0dd4aea8a5",
+  "deliveries": 60,
+  "concurrency": 12,
+  "http202": 1,
+  "http200": 59,
+  "ledgerEntries": 1,
+  "creditsApplied": 10,
+  "finalStatus": "SUCCEEDED",
+  "elapsedSeconds": 0.294,
+  "note": "Correctness demonstration; elapsed time is not a production capacity benchmark."
+}

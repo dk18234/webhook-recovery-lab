@@ -1,0 +1,10 @@
+# HELP lab_processing_results_total  
+# TYPE lab_processing_results_total counter
+lab_processing_results_total{outcome="succeeded"} 1.0
+# HELP lab_processing_seconds  
+# TYPE lab_processing_seconds summary
+lab_processing_seconds_count 1
+lab_processing_seconds_sum 0.011376084
+# HELP lab_processing_seconds_max  
+# TYPE lab_processing_seconds_max gauge
+lab_processing_seconds_max 0.011376084

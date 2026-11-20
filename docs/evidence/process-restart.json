@@ -1,0 +1,8 @@
+{
+  "eventId": "evt_restart_3172b8e7d9",
+  "processTermination": "SIGKILL",
+  "acceptedBeforeKill": true,
+  "presentAfterRestart": true,
+  "finalStatus": "SUCCEEDED",
+  "ledgerEntries": 1
+}

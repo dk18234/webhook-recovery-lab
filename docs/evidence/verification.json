@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-20",
+  "java": "Temurin 21.0.13.1",
+  "springBoot": "3.5.16",
+  "postgresql": "16.16",
+  "host": "Linux x86_64",
+  "javaTests": [
+    {
+      "name": "dev.dineshrama.webhook.RecoveryIntegrationTest",
+      "tests": "25",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "6.453"
+    },
+    {
+      "name": "dev.dineshrama.webhook.RestartRecoveryTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "time": "1.323"
+    }
+  ],
+  "simulationTests": {
+    "tests": 7,
+    "failures": 0
+  },
+  "containerBuild": "not run; Docker engine is not available in the build environment",
+  "browserChecks": [
+    "overview and navigation",
+    "crash-after-commit reconciliation",
+    "dead-letter evidence"
+  ]
+}

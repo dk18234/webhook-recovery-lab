@@ -44,6 +44,7 @@ The Python sender uses only the standard library. Its secret must match the back
 
 ```bash
 python3 scripts/send_event.py --id evt_demo_001 --copies 60 --concurrency 12
+python3 scripts/verify_http.py
 ```
 
 The response summary should show one accepted event and 59 duplicate acknowledgements. Once the worker runs, inspect `evt_demo_001`: delivery count 60, one ledger entry, ten credits. Reusing the ID with a different account or credit amount returns HTTP 409.
