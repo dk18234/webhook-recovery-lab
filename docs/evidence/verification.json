@@ -30,6 +30,13 @@
   "browserChecks": [
     "overview and navigation",
     "crash-after-commit reconciliation",
-    "dead-letter evidence"
-  ]
+    "dead-letter evidence",
+    "corrected poison-event replay preserves both attempts",
+    "public GitHub Pages dashboard loaded"
+  ],
+  "hostedVerification": {
+    "url": "https://github.com/dk18234/webhook-recovery-lab/actions/runs/44795990154",
+    "conclusion": "success",
+    "containerBuildAndSignedHttp": "passed"
+  }
 }

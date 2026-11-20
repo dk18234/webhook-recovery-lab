@@ -2,6 +2,8 @@
 
 A durable webhook inbox that makes duplicate delivery, retries, and crash recovery visible. Built by **Dinesh Kumar Rama** with Java 21, Spring Boot, PostgreSQL, Flyway, and a dependency-free dashboard.
 
+[Try the interactive browser demo](https://dk18234.github.io/webhook-recovery-lab/) · [Read the learning guide](docs/learning-guide.md) · [View passing container verification](https://github.com/dk18234/webhook-recovery-lab/actions/runs/44795990154)
+
 **The contract:** acknowledge accepted work only after persistence; apply at most one PostgreSQL credit effect for each event ID; recover unfinished processing from a durable lease.
 
 This project uses synthetic credits. The hosted portfolio companion is explicitly a **browser simulation**. It shares the dashboard and demonstrates state transitions using local storage; it does not run Java or prove database concurrency. The service and integration tests in this repository use real PostgreSQL.

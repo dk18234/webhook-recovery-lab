@@ -14,8 +14,10 @@ Build date: November 20, 2026. Environment: shared Linux x86_64 development host
 | Dashboard walkthrough | Overview, scenario navigation, crash-after-commit reconciliation, terminal failure inspection |
 | Portfolio TypeScript and Vite build | Passed |
 | Local Docker image build | Not run: no Docker engine in the build environment |
+| Hosted Docker Compose build and signed HTTP check | Passed in GitHub Actions run 44795990154 |
+| Public browser demo publication | GitHub Pages deployment passed; dashboard opened successfully |
 
-The included GitHub Actions workflow separately builds and exercises Docker Compose when it runs. Do not infer a successful hosted CI run from this local report; inspect the repository's Actions result.
+The [hosted verification run](https://github.com/dk18234/webhook-recovery-lab/actions/runs/44795990154) passed the Java suite, simulation suite, module checks, Compose validation, container build, and signed HTTP correctness check. The [browser demo](https://dk18234.github.io/webhook-recovery-lab/) is published through GitHub Pages. Its crash-reconciliation and corrected replay workflows were also checked in a browser.
 
 Machine-readable results:
 
